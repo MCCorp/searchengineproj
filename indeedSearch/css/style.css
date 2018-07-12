@@ -1,0 +1,197 @@
+body
+{
+    font-family: Helvetica Neue,Helvetica,Arial,Liberation Sans,Roboto,Noto,sans-serif;
+    font-size: .75rem;
+}
+header
+{
+    border-bottom: 2px solid transparent;
+    border-bottom-color: #f2f2f2;
+    background-color: #fff;
+    padding-top: 2px;
+    font-size: 12px;
+}
+.main
+{
+    max-width: 1140px;
+    margin: auto;
+    padding: 1rem;
+
+}
+.menu-t
+{
+    margin-right: 0;
+}
+.menu-t ul
+{
+    margin-top: 7px;
+    margin-bottom: 9px;
+
+}
+.menu-t ul li
+{
+    display: inline;
+    margin: auto;
+    color: black;
+}
+.menu-t-right
+{
+    float: right;
+    padding-right: 40px;
+}
+.menu-t-right li
+{
+    padding-left: 10px;
+}
+.m-t-r-l
+{
+    padding-left: 10px;
+}
+.search-form
+{
+    margin-top: 3rem;
+    margin-bottom: 25px;
+}
+.img-logo-search
+{
+    padding-top: 45px;
+
+}
+.logo-search
+{
+    text-align: center;
+}
+.find-jobs-button button
+{
+    margin-top: 57px;
+    background-color: #085ff7 !important;
+    border-color: #085ff7 !important;
+    color: white;
+    border-radius: 20px;
+    height: 42px;
+    width: 120px;
+    border: solid 1px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.find-jobs-button
+{
+    text-align: center;
+}
+.p-what, .p-where
+{
+    font-size: 20px;
+    letter-spacing: -.1px;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    margin-bottom: 0;
+}
+.p-what-des, .p-where-des
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #767676;
+    display: block;
+    margin-bottom: 0;
+}
+.what-search label
+{
+    padding-left: 10px;
+}
+.where-search label
+{
+    padding-left: 10px;
+}
+.inp-what-wrapper input, .inp-where-wrapper input
+{
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    border-color: #ccc !important;
+    border: solid 2px;
+}
+.col-search
+{
+    padding:10px;
+}
+.ads-c-cv, .ads-p-job
+{
+    text-align: center;
+    font-size: 16px;
+}
+.ads-p-job span,.ads-c-cv span
+{
+    color: #5a38d6;
+    font-weight: bold;
+}
+.job-news
+{
+    text-align: center;
+    font-size: 15px;
+    border-top: 2px solid #f6f6f6 ;
+    border-bottom: 4px solid #ff6c40;
+
+}
+.job-news span
+{
+    color: #5a38d6 ;
+}
+.job-news p:first-child
+{
+    margin-bottom: 0px;
+}
+.job-news-row
+{
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+}
+.footer-text
+{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.fr-mg
+{
+    margin: auto;
+}
+.ft-right p
+{
+    float: right;
+}
+.ft-t
+{
+    margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+    .main
+    {
+        max-width: 480px;
+        margin: auto;
+    }
+    .find-jobs-button button
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .search-form
+    {
+        margin-top: 0px;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .fr-mg
+    {
+        text-align: center;
+    }
+    .ft-right p
+    {
+        float: none;
+    }
+}
+
+
